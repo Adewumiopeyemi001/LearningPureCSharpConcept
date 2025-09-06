@@ -11,6 +11,8 @@ var calculatePrimeNumber = result.IsPrime(6);
 Console.WriteLine(calculatePrimeNumber);
 
 
+Console.WriteLine("Learning GitHub");
+
 Console.WriteLine("Hello, World!");
 
 
