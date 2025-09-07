@@ -11,23 +11,32 @@ namespace LearningPureCSharpConcept.Concepts
     {
         // Programming Language
         // Introduction to C#
+        //.Net is used to develop game app, mobile app, web app
+        //.Net provide the use of many languages and c# is one of them
 
-        public string ReverseString(string input)
-        {
-            char[] charArray = input.ToCharArray();
-            Array.Reverse(charArray);
-            return new string(charArray);
-        }
+        //What is a programming Language
 
-        public bool IsPrime(int number)
-        {
-            if (number <= 1) return false;
-            for (int i = 2; i <= Math.Sqrt(number); i++)
-            {
-                if (number % i == 0) return false;
-            }
-            return true;
-        }
+        /*
+            Formal computer language
+            Used to create programs
+            Can be classified in generation
+                        First Generation
+                        Second Generation
+                        Third Generation
+
+        C# is developed by Anders Hejlsberg and Team in Microsoft
+        One of the language designed for CLI(Comand Language Infrastructure)
+
+        FEATURES OF C#
+
+        1. Strongly typed : Meaning defining the type of data always
+        2. Object Oriented :
+        3. Component oriented : for seperation of concerns
+        4. Multi-Paradigm : Going through different way to create application
+        5. Even driven
+        6. Task driven
+        */
+      
       
     }
 }
