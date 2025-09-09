@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningPureCSharpConcept.Concepts
 {
-    internal class Operators
+    public class Operators
     {
 
         /*
@@ -27,6 +27,19 @@ namespace LearningPureCSharpConcept.Concepts
         int b = ++a
 
 
+        
+
+        public int a = 10;
+        public int b = 20;
+
+        public int Sum() { return a + b; }
+        public int Min() { return a - b; }
+
         */
+
+        public static int Sum(int a, int b) => a + b;
+      
+
+        public static int Min(int a, int b) => a - b;
     }
 }

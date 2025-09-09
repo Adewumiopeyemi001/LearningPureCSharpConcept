@@ -14,11 +14,55 @@ int age = 10;
 
 Console.WriteLine("User name is {0} and Age is {1}", name, age);
 
-                //TYPE CASTING
-short num1 = 10;
-short num2 = 20;
-short sum = (short)(num1 + num2);
-Console.WriteLine("The sum is:", sum);
+Operators perform = new();
+Console.WriteLine($"Sum: {Operators.Sum(23, 39)}");
+Console.WriteLine($"Minus: {Operators.Min(40, 20)}");
+
+
+// If else state
+/*
+IfElseStatement _ = new();
+Console.WriteLine(IfElseStatement.Num(83));
+
+Console.Write("Please enter your number: ");
+int num = int.Parse(Console.ReadLine());
+
+string result = IfElseStatement.Num(num);
+Console.WriteLine(result);
+
+*/
+
+/*
+Console.Write("Enter your percentage: ");
+float percent = float.Parse(Console.ReadLine());
+
+string results = IfElseStatement.Percentage(percent);
+Console.WriteLine(results);
+*/
+
+
+// Switch Statement
+Console.Write("Enter a letter: ");
+
+//Console.ReadKey()
+char input = Console.ReadKey().KeyChar;
+Console.WriteLine();
+
+string result = SwitchStatement.Alphabeth(input);
+Console.WriteLine(result);
+
+LoopsIteration.ForLoop();
+    
+
+
+//TYPE CASTING
+//short num1 = 10;
+//short num2 = 20;
+//short sum = (short)(num1 + num2);
+//Console.WriteLine("The sum is:", sum);
+
+
+
 
 //string name2 = Console.ReadLine();
 //int age2 = int.Parse(Console.ReadLine());
