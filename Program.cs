@@ -51,8 +51,25 @@ Console.WriteLine();
 string result = SwitchStatement.Alphabeth(input);
 Console.WriteLine(result);
 
+//Loops
 LoopsIteration.ForLoop();
-    
+
+//For Loop
+ForLoops.ForLoop();
+
+//While Loop
+WhileLoop.WhileLoops();
+WhileLoop.WhileLoop2();
+
+
+//Do...While Loop
+DoWhileLoops.While();
+
+//Jump Statement
+JumpStatement.Breaks();
+JumpStatement.Continue();
+JumpStatement.GoTo();
+JumpStatement.Return();
 
 
 //TYPE CASTING
