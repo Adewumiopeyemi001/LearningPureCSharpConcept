@@ -2,6 +2,7 @@
 
 
 using LearningPureCSharpConcept.Concepts;
+using Array = LearningPureCSharpConcept.Concepts.Array;
 
 Console.Write("Hello man \n");
 Console.WriteLine("Hello, World!");
@@ -70,6 +71,19 @@ JumpStatement.Breaks();
 JumpStatement.Continue();
 JumpStatement.GoTo();
 JumpStatement.Return();
+
+
+
+//Practice Loop
+PracticeLoops.LoopNum();
+PracticeLoops.LoopNum2();
+
+//Array
+Array.Array1();
+Array.Array2();
+Array.Array3();
+Array.Array4();
+Array.Array5();
 
 
 //TYPE CASTING
