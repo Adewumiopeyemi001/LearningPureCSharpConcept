@@ -4,6 +4,11 @@
 using LearningPureCSharpConcept.Concepts;
 using Array = LearningPureCSharpConcept.Concepts.Array;
 
+
+/*
+
+
+
 Console.Write("Hello man \n");
 Console.WriteLine("Hello, World!");
 
@@ -39,7 +44,7 @@ float percent = float.Parse(Console.ReadLine());
 
 string results = IfElseStatement.Percentage(percent);
 Console.WriteLine(results);
-*/
+
 
 
 // Switch Statement
@@ -98,6 +103,33 @@ Console.WriteLine(Strings.StringPractice());
 Console.WriteLine(Strings.StringPractice2());
 Console.WriteLine(Strings.StringPractice3());
 Console.WriteLine(Strings.StringPractice4());
+
+Object Overlaoding
+Length len1 = new(2, 8);
+Length len2 = new(4, 5);
+Length len3 = len2 + len1;
+if (len1 > len2)
+{
+    Console.WriteLine("Len1 is greater");
+}
+else
+    Console.WriteLine("Len1 is not greater");
+
+    Console.WriteLine(len1.GetLength());
+Console.WriteLine(len2.GetLength());
+Console.WriteLine("Total : " + len3.GetLength());
+
+
+*/
+
+
+
+
+
+
+
+
+
 
 
 //TYPE CASTING
