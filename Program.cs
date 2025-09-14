@@ -86,6 +86,20 @@ Array.Array4();
 Array.Array5();
 
 
+//Methods
+
+Methods.Add(10, 20);
+Console.WriteLine("Grade: {0}", Methods.GetGrade());
+Console.WriteLine($"sum: {Methods.Addition(30, 50, 40)}");
+
+
+//String
+Console.WriteLine(Strings.StringPractice());
+Console.WriteLine(Strings.StringPractice2());
+Console.WriteLine(Strings.StringPractice3());
+Console.WriteLine(Strings.StringPractice4());
+
+
 //TYPE CASTING
 //short num1 = 10;
 //short num2 = 20;
