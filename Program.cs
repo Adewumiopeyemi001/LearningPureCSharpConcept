@@ -104,6 +104,8 @@ Console.WriteLine(Strings.StringPractice2());
 Console.WriteLine(Strings.StringPractice3());
 Console.WriteLine(Strings.StringPractice4());
 
+
+
 Object Overlaoding
 Length len1 = new(2, 8);
 Length len2 = new(4, 5);
@@ -120,7 +122,38 @@ Console.WriteLine(len2.GetLength());
 Console.WriteLine("Total : " + len3.GetLength());
 
 
+//Properties
+Accounts ac1 = new();
+ac1.InitialAmount = 500;
+
+
+//Indexer
+Department dept = new();
+Console.WriteLine(dept[101].EmpName);
+Console.WriteLine(dept["Mathew"].Id);
+
+//Inheritance
+MyClass1 obj1 = new();
+MyClass2 obj2 = new();
+obj2.Method2();
+obj2.Method1();
+
+//Data Hiding or Shawoding
+Employee1 emp1 = new();
+Employee1.Work();
+
 */
+
+//Method Overriding
+Person1 p1 = new Student();
+p1.Wor1k();
+p1 = new Employee2();
+p1.Wor1k();
+p1 = new Person1();
+p1.Wor1k();
+
+
+
 
 
 
