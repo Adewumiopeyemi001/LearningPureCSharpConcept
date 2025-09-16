@@ -4,6 +4,8 @@
 using LearningPureCSharpConcept.Concepts;
 using Array = LearningPureCSharpConcept.Concepts.Array;
 
+//MyDel myDel = new(Add);
+
 
 /*
 
@@ -142,8 +144,6 @@ obj2.Method1();
 Employee1 emp1 = new();
 Employee1.Work();
 
-*/
-
 //Method Overriding
 Person1 p1 = new Student();
 p1.Wor1k();
@@ -151,6 +151,52 @@ p1 = new Employee2();
 p1.Wor1k();
 p1 = new Person1();
 p1.Wor1k();
+
+
+//Interface Class
+MyClass22 m2 = new MyClass22();
+m2.M1();
+
+
+//Generic Classes
+My3Class<int, string> obj1 = new My3Class<int, string>();
+obj1.MyProperty = 10;
+obj1.Method(20, "Are you there");
+
+
+// Struct
+MyStruct myStruct1 = new MyStruct();
+myStruct1.Val = 10;
+
+MyStruct myStruct2 = myStruct1;
+Console.WriteLine(myStruct2.Val);
+
+myStruct1.Val = 20;
+Console.WriteLine(myStruct2.Val);
+
+
+//Delegates
+Deligates.MyDel del = Deligates.Add;
+Console.WriteLine(del(20, 40));
+
+//Generic Delegates
+Action<string> action1 = Gen.SampleMethod;
+Func<int, int, int> func = Gen.Add;
+Predicate<string> pred1 = Gen.Login;
+
+
+//Lambda Expressions
+//Del del = x => x * x;
+//int result = del(4);
+//Console.WriteLine(result);
+
+//Del del = w, y => w * y;
+//int result1 = del(4, 9);
+//Console.WriteLine(result1);
+
+*/
+
+
 
 
 
